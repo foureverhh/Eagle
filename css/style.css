@@ -25,12 +25,17 @@ a{
 }
 
 /*sub_title 欢迎来到川鹰官方网站*/
+header .sub_title{
+    background: gray;
+}
+
 header #welcome{
+    width: 240px;
     float: left;
 }
 
 header ul li{
-    display: inline;
+    display: inline-block;
     padding-right:10px;
 }
 
@@ -38,14 +43,13 @@ header ul{
     margin-top:15px;
 }
 header #contact{
+    width: 150px;
     float:right;
 }
-header .sub_title{
-    background: gray;
-}
+
 /*title logo 热线电话*/
 header .title{
-    clear: both;
+   clear: left;
 }
 header .title #logo{
     float:left;
@@ -60,9 +64,12 @@ nav {
     clear: both;
 }
 nav ul li{
-    display: inline;
+    display: inline-block;
     background: greenyellow;
     padding: 10px;
+    width: 16%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 
