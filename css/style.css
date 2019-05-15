@@ -25,10 +25,6 @@ a{
 }
 
 /*sub_title 欢迎来到川鹰官方网站*/
-header .sub_title{
-    background: gray;
-}
-
 header #welcome{
     float: left;
 }
@@ -44,20 +40,30 @@ header ul{
 header #contact{
     float:right;
 }
-
-
-
-
-
-
-
+header .sub_title{
+    background: gray;
+}
 /*title logo 热线电话*/
-header #log{
+header .title{
+    clear: both;
+}
+header .title #logo{
     float:left;
 }
 
-header #hotline{
-    float: right;
+header .title #hotline{
+   float:right;
 }
+
+/*Nav in header*/
+nav {
+    clear: both;
+}
+nav ul li{
+    display: inline;
+    background: greenyellow;
+    padding: 10px;
+}
+
 
 
