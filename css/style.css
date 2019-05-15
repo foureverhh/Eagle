@@ -12,6 +12,7 @@ ul{
     padding:0px;
 }
 .container{
+    padding: 10px;
     width:60%;
     margin:auto;
 }
@@ -26,6 +27,7 @@ a{
 
 /*sub_title 欢迎来到川鹰官方网站*/
 header .sub_title{
+    width: 100%;
     background: gray;
 }
 
@@ -73,4 +75,14 @@ nav ul li{
 }
 
 
+
+
+
+
+@media(max-width:768px){
+    .container{
+        padding: 10px;
+        width: 100%;
+    }
+}
 
