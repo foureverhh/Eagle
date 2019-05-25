@@ -13,7 +13,7 @@ ul{
 }
 .container{
     padding: 10px;
-    width:60%;
+    width:80%;
     margin:auto;
 }
 
@@ -23,6 +23,10 @@ li{
 
 a{
     text-decoration: none;
+}
+
+img{
+    width:100%;
 }
 
 /*sub_title 欢迎来到川鹰官方网站*/
@@ -67,12 +71,28 @@ nav {
 }
 nav ul li{
     display: inline-block;
-    background: greenyellow;
+    background:rgb(223, 223, 26);
     padding: 10px;
     width: 16%;
     box-sizing: border-box;
     text-align: center;
+    text-decoration: none;
 }
+
+nav ul li.current-nav{
+    background-color: red;
+}
+
+nav ul li a{
+    color: white;
+}
+
+/*big_banner*/
+img#big_banner{
+    min-height: 200px;
+}
+
+
 
 
 
@@ -85,4 +105,3 @@ nav ul li{
         width: 100%;
     }
 }
-
