@@ -92,8 +92,140 @@ img#big_banner{
     min-height: 200px;
 }
 
+/*about eagle*/
+.about_eagle .container h2,.about_eagle .container h3{
+    text-align: center;
+}
+
+p#below_about_us{
+    text-align: center;
+}
+
+#banner_about_eagle{
+    background-image: url('../images/banners/banner.jpg');
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /*background-attachment: fixed;*/
+}
+
+#banner_about_eagle .container{
+    padding-top: 50px;
+    padding-bottom:20px;
+}
+
+#banner_about_eagle .container .image_holder{
+    width:24%;
+    margin-top:5px;
+    margin-left:-4px;
+
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: wheat;
+    vertical-align: top;
+    min-height: 200px;
+
+    overflow: hidden;
+    
+}
+
+#company_intro, #company_honor{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+#company_intro {
+    width:58%;
+    vertical-align: top;
+    height: 350px;
+  
+}
+
+#company_honor {
+    width: 40%;
+    padding-top:10px;
+    vertical-align: top;
+    height: 350px;
+}
+
+#company_honor img{
+    width: 100%;
+    height: 100%;
+}
+#company_intro .about_eagle_subblock{
+    display: inline-block;
+    width: 32%;
+    box-sizing: border-box;
+    margin:auto;
+    border: solid 1px black;
+    margin-left: 3px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#company_intro .about_eagle_subblock p{
+    text-align: center;
+}
+
+/*product-eagle*/
+.product_eagle .container h2, .product_eagle .container h3{
+    text-align: center;
+}
+
+.product_eagle #catalog{
+    display: inline-block;
+    width: 14%;
+    box-sizing: border-box;
+    margin-right: 3px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.product_eagle #catalog .catalog_title{
+    height:60px;
+    background-color: blue;
+    color: white;
+}
+
+.product_eagle #catalog .catalog_title p{
+    padding-top: 18px;
+}
+.product_eagle #catalog li{
+    padding-top:10px;
+    height: 25px;
+    background-color: gray;
+    margin-top:1px;
+    color: white;
+}
+.product_eagle #image_groups{
+    padding: 10px;
+    display: inline-block;
+    width: 85%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.product_eagle #image_groups .image_sample{
+    display: inline-block;
+    width: 32%;
+    box-sizing: border-box;
+    vertical-align: top;
+    overflow: hidden;
+    height: 150px;
+    border: 1px black dotted;
+    margin-top:8px;
+    background-image: url('../images/imageSamples/image_sample.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
 
 
+/*product-eagle*/
+.news_eagle  h2,.news_eagle h3{
+    text-align: center;
+}
 
 
 
